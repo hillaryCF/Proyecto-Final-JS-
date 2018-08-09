@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+.conteinergaleria{
+    
+    position: relative;
+}
+.header{
+    background: url("img/header2.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    
+}
+.header h1{
+    margin: 0px;
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    font-size: 105px;
+}
+h2{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.conteinergaleria .image{
+    position: absolute;
+    left: 420px;
+}
+.conteinergaleria .anterior{
+    position: absolute;
+    left: 270px;
+    top: 180px;
+    text-decoration: none;
+    color:white;
+    font-size: 100px;
+}
+.conteinergaleria .siguiente{
+    position: absolute;
+    left: 1000px;
+    top: 180px;
+    text-decoration: none;
+    color:white;
+    font-size: 100px;
+}
