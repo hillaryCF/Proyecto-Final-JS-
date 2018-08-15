@@ -3,45 +3,73 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Slideshow</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet"  href="main.css" />
+    
 </head>
 <body>
-    <div class="header">
-        <h1>photographs tumblr</h1>
+    <!--  tittle -->
+    <div class="tittle">
+    <h1>FISHES IMAGE</h1>
     </div>
-    <div>
-        <h2>TREND IMAGE</h2>
-    </div>
-    </div>
-    <div class= "conteinergaleria">
-        <div class="image">
-            <img src="img/playa4.jpg" alt="">
+    <!-- End tittle -->
+
+    <!-- Content -->
+    <div class="main">
+        <div class="slide actual">
+            <img src="img/pez1.jpg" alt="pez cirujano">
+            <h2 class="name">Pez cirujano</h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+        <img src="img/pez2.jpg" alt="Pez leon">
+        <h2 class="name">Pez Leon</h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+            <img src="img/pez3.jpg" alt="pe arcoiris">
+            <h2 class="name">Pez arcoiris</h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+            <img src="img/pez4.jpg" alt="pez payaso">
+            <h2 class="name">Pez Payaso</h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+            <img src="img/pez9.jpg" alt="pez-cocodrilo">
+            <h2 class="name">Pez Cocodrilo</h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+            <img src="img/pez7.jpg" alt="pez betta">
+            <h2 class="name">Pez Betta </h2>
         </div>
-        <div class="image">
-            <img src="" alt="">
+        <div class="slide">
+            <img src="img/pez8.jpg" alt="pez labrido seis lineas">
+            <h2 class="name">Pez labrido seis lineas</h2>
+        </div>
+        <div class="slide">
+            <img src="img/pez10.jpg" alt="pez vaca">
+            <h2 class="name">Pez Vaca</h2>
         </div>
 
-        <a href="#" class="anterior">&#10094;</a>
-        <a href="#" class="siguiente">&#10095;</a>
+        <!--arrows -->
+        <a href="#" class="anterior" onclick="anterior()">&#10094;</a>
+        <a href="#" class="siguiente" onclick="siguiente()">&#10095;</a>
+        <!-- End arrows -->
+
+        <!-- Points -->
+        <div class="puntos">
+            <span class="punto activo" onclick='mostrar(0);'></span>
+            <span class="punto" onclick='mostrar(1);'></span>
+            <span class="punto" onclick='mostrar(2);'></span>
+            <span class="punto" onclick='mostrar(3);'></span>
+            <span class="punto" onclick='mostrar(4);'></span>
+            <span class="punto" onclick='mostrar(5);'></span>
+            <span class="punto" onclick='mostrar(6);'></span>
+            <span class="punto" onclick='mostrar(7);'></span>
+        </div>
+        <!-- End points -->
+    
     </div>
+    <!-- End conteiner -->
 
     <script src="script.js"></script>
 </body>
