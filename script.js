@@ -50,3 +50,4 @@ function setinter(){
  //se pone en ejecucion el boton siguiente y anterior para la cancelacin del interval clear
  let cancelButton = document.querySelector('a');
  cancelButton.addEventListener('click', cancel);
+ //
